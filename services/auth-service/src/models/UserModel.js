@@ -54,6 +54,13 @@ class UserModel {
       [name, avatar, id]
     );
   }
+
+  static async linkOAuth(id, provider, oauthId, avatar) {
+    await pool.query(
+      'UPDATE users SET oauth_provider = ?, oauth_id = ?, avatar = ? WHERE id = ?',
+      [provider, oauthId, avatar, id]
+    );
+  }
 }
 
 module.exports = UserModel;
