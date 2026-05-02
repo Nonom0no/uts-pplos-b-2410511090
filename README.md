@@ -1,6 +1,6 @@
 # Sistem Pemesanan Tiket Event — Berbasis Microservice
 
-> UTS PPLOS B · NIM 2410511090 · Teknik Informatika · UPN "Veteran" Jakarta
+> UTS PPLOS B · NIM 2410511090 ·
 
 [![Node.js](https://img.shields.io/badge/Node.js-18+-green)](https://nodejs.org)
 [![Laravel](https://img.shields.io/badge/Laravel-11-red)](https://laravel.com)
